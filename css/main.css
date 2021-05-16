@@ -7,12 +7,41 @@ body {
 	background-size: cover;
 	overflow-x: hidden;
 }
-.navbar { height: 80px;}
-.img-logo {margin-top: 100px}
-li.nav-item{
-	margin-top: 36px;
-	margin-right: 65px;
-    margin-left: 65px;
+
+.img-podcast {
+	position: absolute;
+	width: 90px;
+	height: auto;
+	top: 8px;
 }
+.navbar-brand span{margin-left: 100px; bottom: 0;}
+
+.card-episodios {margin-top:20%; max-width: 700px;}
 .bg-secondary {background: #2A3245!important; background-color: #2A3245}
 main {height: 100vh}
+.thumb-episode {height: 200px; width:auto;padding: 16px;}
+.card-body {padding:8px; text-align: right}
+.embed {
+	height: 102px;
+	width: 650px
+}
+
+
+@media all and (max-width: 768px) {
+	body {
+		background: url(../img/bg-pdcast.jpg) no-repeat center right fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		overflow-x: hidden;
+	}
+	.img-podcast {
+		position: relative;
+	}
+	.card-episodios {margin-top:40%; max-width: 400px;}
+	.embed {
+		height: 102px;
+		width: 350px
+	}	
+}

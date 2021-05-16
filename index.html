@@ -10,68 +10,79 @@
     <meta name="description" content="Texto resumido aparecera nos resultados de busca atalhos" />
     <meta name="author" content="Nome do autor">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <!-- Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
-  <body>
-    
-      <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-secondary bg-secondary">
-          <div class="container-fluid">           
-            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav mx-auto mt-5">
-                <li class="nav-item">
-                  <a class="nav-link text-success" aria-current="page" href="#"><i class="fab fa-spotify fa-3x"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-danger" href="https://www.youtube.com/channel/UClZihaFQDKVz_ct6LKwRBaw" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
-                </li>
-                  <a class="navbar-brand" href="#">
-                    <img src="img/logo-central.svg" class="img-fluid mx-auto mt-5" alt="logo podcast" width="128">
-                  </a>
-                <li class="nav-item">
-                  <a class="nav-link text-primary" href="#"><i class="fab fa-telegram fa-3x"></i></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-success" href="#"><i class="fab fa-whatsapp fa-3x"></i></a>
-                </li>
-              </ul>
-            </div>
+  <body>    
+    <header class="position-fixed">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container"> 
+          <a class="navbar-brand" href="#">
+            <img src="img/logo-central.svg" class="img-podcast" alt="logo podcast"> 
+            <span>Clube da Delícia</span>
+          </a>
+          <div class="navbar">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item"> 
+                <a class="nav-link" href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x text-light"></i>
+                  <i class="fab fa-spotify text-success fa-stack-1x"></i>
+                </span> 
+              </a> 
+            </li>
+              <li class="nav-item"> 
+                <a class="nav-link" href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x text-light"></i>
+                  <i class="fab fa-whatsapp text-success fa-stack-1x fa-inverse"></i>
+                </span>
+              </a> 
+            </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"> 
+                <a class="nav-link" href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x text-light"></i>
+                  <i class="fab fa-youtube text-danger fa-stack-1x fa-inverse"></i>
+                </span>    
+              </a> 
+            </li>
+            </ul> 
+            <a class="btn btn-light navbar-btn ml-md-2 d-none" href="sobre.html">Sobre o Podcast</a>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+
+
+     
+    </header>
     <main>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-md-12 col-lg-6 col-xl-6">
-            <div class="card mb-3" style="max-width: 540px; margin-top: 30%">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="..." alt="...">
-                </div>
-                <div class="col-md-8">
+          <div class="col-12 col-lg-8 col-xl-8">
+            <div class="card bg-dark text-light mb-3 w-100 card-episodios">
+              <div class="row g-0">     
+                <div class="col-md-12">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <iframe src="https://anchor.fm/thiago-lcio-bittencourt-thomaz-da-silva/embed" class="embed" frameborder="0" scrolling="no"></iframe>                    
+                    <h5 class="card-title">Porque TI não é o que você pensava</h5>
+                    <p class="card-text">
+                      Neste primeiro episódio a galera do delícia bate um papo sobre suas visões do mundo da TI. Um monte de marmanjo de todas as gerações abrindo o verbo sobre a realidade como profissional da área.
+                      É só sefordance!
+                      </p>
+                    <p class="card-text"><small class="text-muted">15/05/2021</small></p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-12 col-lg-6 col-xl-6">
-            ewiduewiduewhdiuheiduhewiuh
-          </div>
         </div>
         </div>
     </main>
-  <footer>
+  <!-- <footer>
     <nav class="navbar navbar-light fixed-bottom bg-secondary">
   <div class="container">
     <a class="navbar-brand" href="#">
@@ -79,9 +90,9 @@
     </a>
   </div>
 </nav>
-  </footer>
+  </footer> -->
 
-<h1>Hello, world!</h1>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </html>
