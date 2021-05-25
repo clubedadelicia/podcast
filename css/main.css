@@ -24,9 +24,9 @@ body {
     margin-left: 100px;
     bottom: 0;
 }
-
+.card-one {margin-top: 140px!important;}
 .card-episodios {
-    margin-top: 20%;
+    margin-top: 10%;  
     max-width: 700px;
     background-color: rgba(0, 0, 0, 0.8) !important;
     -webkit-box-shadow: 10px 10px 4px -5px rgba(0, 0, 0, 0.58);
@@ -46,7 +46,6 @@ body {
 }
 
 .card-body {
-    padding: 8px;
     text-align: right
 }
 
@@ -66,12 +65,14 @@ body {
         overflow-x: hidden;
     }
 
+    .card-one {margin-top: 240px!important;}
+
     .img-podcast {
         position: relative;
     }
 
     .card-episodios {
-        margin-top: 60%;
+        margin-top: 20%;       
         max-width: 400px;
     }
 
