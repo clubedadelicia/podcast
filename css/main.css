@@ -54,6 +54,8 @@ body {
     width: 100%
 }
 
+.font18 {font-size: 18px;}
+
 
 @media all and (max-width: 768px) {
     body {
